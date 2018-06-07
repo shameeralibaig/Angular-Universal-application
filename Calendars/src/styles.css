@@ -1,0 +1,6 @@
+@import "../node_modules/@syncfusion/ej2/material.css";
+@import "../src/assets/components-font-awesome/css/font-awesome.min.css";
+
+.buttonstyle{
+    height:25%;
+}

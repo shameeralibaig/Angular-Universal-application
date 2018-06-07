@@ -1,0 +1,31 @@
+<ejs-sidebar #sidebar id="default">
+  
+  <div style="display:inline-block;">
+    <h3> Calendar </h3>
+    <ejs-calendar></ejs-calendar>
+  </div>
+  <div>
+    <div style="width:250px">
+      <h3> DatePicker </h3>
+      <ejs-datepicker></ejs-datepicker>
+    </div>
+  </div>
+  <div style="width:250px;">
+    <h3> DateTimePicker </h3>
+    <ejs-datetimepicker></ejs-datetimepicker>
+  </div>
+  
+  <div style="width:250px;">
+    <h3> TimePicker </h3>
+    <ejs-timepicker></ejs-timepicker>
+  </div>
+</ejs-sidebar>
+<div class="e-main-content">
+  <div>
+      <button ejs-button cssClass="e-info buttonstyle" #togglebtn (click)="btnClick()" isToggle="true">Close Sidebar</button>
+      </div>
+  <div style="width:250px;margin-top:300px">
+      <h3> DateRangePicker </h3>
+      <ejs-daterangepicker></ejs-daterangepicker>
+    </div>
+</div>
